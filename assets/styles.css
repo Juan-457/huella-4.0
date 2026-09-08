@@ -371,6 +371,7 @@ a { color: inherit; text-decoration: none; }
 
 .hero-visual {
   position: relative;
+  width: 100%;
   aspect-ratio: 1 / 1;
   border-radius: var(--radius-lg);
   background: linear-gradient(155deg, var(--green-700), var(--green-900) 65%);
@@ -407,10 +408,15 @@ a { color: inherit; text-decoration: none; }
   opacity: 0.55;
 }
 
-.hero-mark {
-  position: relative;
+.hero-photo {
+  position: absolute;
+  inset: 0;
   z-index: 1;
-  width: 58%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 72% center;
+  border-radius: inherit;
 }
 
 .hero-visual-caption {
