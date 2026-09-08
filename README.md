@@ -28,9 +28,12 @@ bioinsumos para el agro argentino y representante oficial de **Biótica Life Sci
 - **No hay dominio ni hosting conectado todavía.** El CNAME apunta a
   `huella40.com.ar` pero falta conectar DNS/hosting. Este repo solo contiene
   el código fuente del sitio.
+- **WhatsApp confirmado** (Gustavo, 2026-09-08): `+54 9 2477 33-1767`. Ya está
+  como canal activo en la sección de contacto (`wa.me/5492477331767`) y en el
+  footer.
 - Sin backend, sin formularios con envío de datos, sin tracking. Los CTA
-  activos son Instagram (`https://www.instagram.com/huella4.0/`) y el email
-  directo (`mailto:gustavoguillaumet@yahoo.com.ar`).
+  activos son Instagram (`https://www.instagram.com/huella4.0/`), WhatsApp
+  y el email directo (`mailto:gustavoguillaumet@yahoo.com.ar`).
 
 ## Estructura
 
@@ -58,10 +61,6 @@ python3 -m http.server 8080
 
 ## Pendiente / a confirmar con la marca
 
-- **WhatsApp u otro canal de contacto directo**: no está confirmado
-  públicamente, se dejó marcado como "pendiente" en la sección de contacto.
-  El dueño ya escribe por WhatsApp a UmanoAI — falta confirmar si ese mismo
-  número se puede publicar como canal de contacto del sitio.
 - **Detalle técnico de productos** (dosis, composición, cultivos recomendados
   por producto): la landing resume lo que la marca comunica en Instagram
   (p. ej. "NUTRIAAMIN + HUMICA HF", tensoactivos, Biótica N2 + micorrizas,
