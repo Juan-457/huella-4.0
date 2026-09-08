@@ -12,10 +12,22 @@ bioinsumos para el agro argentino y representante oficial de **Biótica Life Sci
 - Se agregó una sección "Resultados a campo" con un caso real que la marca
   publicó (trigo en espigazón, tratamiento de semilla con Humica HF + Biótica
   N2 + micorrizas, medición de °Brix vs. testigo), y se confirmaron por
-  captura directa del perfil: email de contacto (`gustavoguillaumet@yahoo.com.ar`)
-  y zona de operación (Guatimozín, Córdoba, Argentina).
-- **No hay dominio ni hosting conectado todavía.** Este repo solo contiene el
-  código fuente del sitio.
+  captura directa del perfil: email de contacto (`gustavoguillaumet@yahoo.com.ar`).
+- **Datos confirmados directamente por el dueño de la marca (Gustavo Martín
+  Guillaumet, WhatsApp 2026-09-08):** razón social/marca registrada a su
+  nombre, rubro = proveedor de insumos biológicos y asesoramiento en su uso,
+  representante de Biótica Life Sciences, base en **Colón, provincia de
+  Buenos Aires** (reemplaza la zona de Guatimozín, Córdoba que se había
+  inferido de Instagram — dato incorrecto, ya corregido en el sitio).
+- **Logo oficial subido** por el dueño (`huella40.jpeg`, 1280×1280). Se
+  generaron dos derivados en `assets/`: `logo-huella.jpg` (ícono recortado en
+  alta resolución, reemplaza el crop borroso de 100×100 que se usaba antes en
+  header/footer/favicon) y `logo-huella-full.jpg` (lockup completo ícono +
+  wordmark, usado como `og:image`/`twitter:image` para previews al compartir
+  el link).
+- **No hay dominio ni hosting conectado todavía.** El CNAME apunta a
+  `huella40.com.ar` pero falta conectar DNS/hosting. Este repo solo contiene
+  el código fuente del sitio.
 - Sin backend, sin formularios con envío de datos, sin tracking. Los CTA
   activos son Instagram (`https://www.instagram.com/huella4.0/`) y el email
   directo (`mailto:gustavoguillaumet@yahoo.com.ar`).
@@ -27,7 +39,12 @@ index.html          Landing completa (hero, propuesta de valor, productos,
                      sobre la marca, contenido, contacto, footer)
 assets/styles.css    Sistema de diseño (tokens de color/tipografía/espaciado
                      + estilos)
-assets/logo-huella.jpg  Foto de perfil real de @huella4.0 (asset de marca)
+assets/logo-huella.jpg       Ícono de marca (recorte cuadrado en alta res
+                              del logo oficial), usado en header/footer/favicon
+assets/logo-huella-full.jpg  Logo oficial completo (ícono + wordmark),
+                              usado como og:image/twitter:image
+huella40.jpeg        Logo oficial original tal como lo subió el dueño
+                     (1280×1280, fuente de los derivados de arriba)
 ```
 
 ## Cómo verlo local
@@ -43,6 +60,8 @@ python3 -m http.server 8080
 
 - **WhatsApp u otro canal de contacto directo**: no está confirmado
   públicamente, se dejó marcado como "pendiente" en la sección de contacto.
+  El dueño ya escribe por WhatsApp a UmanoAI — falta confirmar si ese mismo
+  número se puede publicar como canal de contacto del sitio.
 - **Detalle técnico de productos** (dosis, composición, cultivos recomendados
   por producto): la landing resume lo que la marca comunica en Instagram
   (p. ej. "NUTRIAAMIN + HUMICA HF", tensoactivos, Biótica N2 + micorrizas,
