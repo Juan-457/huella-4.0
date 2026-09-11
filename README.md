@@ -59,12 +59,20 @@ python3 -m http.server 8080
 # abrir http://localhost:8080
 ```
 
+- **Línea de productos real** (2026-09-11): el dueño subió `Productos/`
+  (fotos + `Descripcion de productos.docx`) con los 5 productos oficiales de
+  la guía — Trichontrol, Biótica N2, Nutraamin, Humica y Algae — categoría y
+  descripción de cada uno. Se reemplazaron las tarjetas genéricas de la
+  sección "Línea de productos" por estas 5 (foto propia para las primeras 4,
+  Algae sin foto en el material recibido) y se sumó el link a los ensayos de
+  Biótica en Fauno (`https://fauno.ai/en/ensayos/?company=Biotica`) en la
+  tarjeta de alianza estratégica.
+
 ## Pendiente / a confirmar con la marca
 
-- **Detalle técnico de productos** (dosis, composición, cultivos recomendados
-  por producto): la landing resume lo que la marca comunica en Instagram
-  (p. ej. "NUTRIAAMIN + HUMICA HF", tensoactivos, Biótica N2 + micorrizas,
-  guía de 5 productos), pero no reemplaza ficha técnica oficial.
+- **Dosis, presentaciones y cultivos recomendados por producto**: las
+  descripciones son las oficiales provistas por la marca, pero no incluyen
+  ficha técnica de dosis/cultivo — confirmar si se quiere sumar.
 - **Teléfono**: no se encontró publicado; no se inventó.
 - **Dominio y hosting**: a definir. No se tocó DNS ni Cloudflare desde esta
   tarea (fuera de alcance).
