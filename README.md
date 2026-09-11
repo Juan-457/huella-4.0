@@ -63,10 +63,10 @@ python3 -m http.server 8080
   (fotos + `Descripcion de productos.docx`) con los 5 productos oficiales de
   la guía — Trichontrol, Biótica N2, Nutraamin, Humica y Algae — categoría y
   descripción de cada uno. Se reemplazaron las tarjetas genéricas de la
-  sección "Línea de productos" por estas 5 (foto propia para las primeras 4,
-  Algae sin foto en el material recibido) y se sumó el link a los ensayos de
-  Biótica en Fauno (`https://fauno.ai/en/ensayos/?company=Biotica`) en la
-  tarjeta de alianza estratégica.
+  sección "Línea de productos" por estas 5, con foto propia para cada una
+  (Algae sumada horas después), y se agregó el link a los ensayos de Biótica
+  en Fauno (`https://fauno.ai/en/ensayos/?company=Biotica`) en la tarjeta de
+  alianza estratégica.
 
 ## Pendiente / a confirmar con la marca
 
