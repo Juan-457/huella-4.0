@@ -110,7 +110,21 @@ a { color: inherit; text-decoration: none; }
   padding: var(--sp-8) 0;
 }
 
-.section--alt { background: var(--bg-alt); }
+.section--alt { background: var(--bg-alt); position: relative; overflow: hidden; isolation: isolate; }
+#productos > .container { position: relative; z-index: 1; }
+
+.microbio-field {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  color: var(--green-700);
+}
+.microbio-field svg { width: 100%; height: 100%; overflow: visible; }
+.microbio-field__link { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; opacity: 0.14; }
+.microbio-field__node { fill: currentColor; opacity: 0.16; }
+.microbio-field__leaf { fill: rgba(76, 168, 92, 0.09); stroke: currentColor; stroke-width: 4; stroke-linejoin: round; opacity: 0.18; }
+.microbio-field__leaf-vein { fill: none; stroke: currentColor; stroke-width: 2; opacity: 0.16; }
 .section--dark {
   background: var(--green-900);
   color: var(--text-inverse);
@@ -643,7 +657,28 @@ a { color: inherit; text-decoration: none; }
   border-radius: var(--radius-lg);
   padding: var(--sp-6);
   position: relative;
+  overflow: hidden;
+  isolation: isolate;
 }
+
+.about-panel > blockquote,
+.about-panel > cite,
+.about-panel > .about-list {
+  position: relative;
+  z-index: 1;
+}
+
+.field-scene {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  color: var(--green-700);
+}
+.field-scene svg { width: 100%; height: 100%; overflow: visible; }
+.field-scene__sun { fill: rgba(76, 168, 92, 0.1); stroke: currentColor; stroke-width: 3; opacity: 0.18; }
+.field-scene__ray { stroke: currentColor; stroke-width: 3; stroke-linecap: round; opacity: 0.16; }
+.field-scene__furrow { fill: none; stroke: currentColor; stroke-width: 3; stroke-linecap: round; opacity: 0.14; }
 
 .about-panel blockquote {
   font-family: 'Space Grotesk', sans-serif;
@@ -752,7 +787,24 @@ a { color: inherit; text-decoration: none; }
   gap: var(--sp-6);
   align-items: center;
   box-shadow: var(--shadow-lg);
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
 }
+
+.cta-panel > div { position: relative; z-index: 1; }
+
+.wheat-scene {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  color: #fff;
+}
+.wheat-scene svg { width: 100%; height: 100%; overflow: visible; }
+.wheat-scene__stalk { fill: rgba(246, 248, 243, 0.14); stroke: currentColor; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; opacity: 0.13; }
+.wheat-scene__stalk--sm { opacity: 0.09; }
+.wheat-scene__leaf { fill: none; stroke: currentColor; stroke-width: 3; stroke-linecap: round; opacity: 0.11; }
 
 .cta-panel h2 { color: #fff; font-size: var(--fs-2xl); max-width: 16ch; }
 .cta-panel p { color: rgba(246, 248, 243, 0.85); }
