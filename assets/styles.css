@@ -792,7 +792,7 @@ a { color: inherit; text-decoration: none; }
   isolation: isolate;
 }
 
-.cta-panel > div { position: relative; z-index: 1; }
+.cta-panel > div:not(.wheat-scene) { position: relative; z-index: 1; }
 
 .wheat-scene {
   position: absolute;
